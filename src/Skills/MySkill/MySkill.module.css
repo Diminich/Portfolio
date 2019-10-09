@@ -1,0 +1,39 @@
+.skill{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cell2{
+    display: flex;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.skillImg {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+}
+
+@media(max-width: 1136px) {
+    .skills{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .skill {
+        width: 100%;
+    }
+}

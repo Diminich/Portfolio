@@ -1,0 +1,39 @@
+.progect {
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.progects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cell1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    border: 1px solid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+}
+
+.cell2 {
+    padding: 10px;
+}
+
+@media(max-width: 500px){
+    .progect{
+        width: 100%;
+    }
+}
