@@ -1,0 +1,31 @@
+.footer {
+    height: 300px;
+    background-color: rgba(13, 4, 63, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1336px;
+    flex-grow: 1;
+    border: 1px solid;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialIcons {
+    width: 70%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcon {
+    width: 50px;
+    height: 50px;
+    background-color: beige;
+}

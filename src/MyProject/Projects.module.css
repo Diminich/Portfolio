@@ -1,0 +1,24 @@
+.projectsWrapper {
+    min-height: 100vh;
+    background-color: rgb(64, 85, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1336px;
+    flex-grow: 1;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
