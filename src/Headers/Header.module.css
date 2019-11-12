@@ -1,8 +1,11 @@
 .header {
     height: 60px;
-    background-color: darkorange;
     display: flex;
     justify-content: center;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid silver;
 }
 
 .container {
@@ -14,9 +17,10 @@
 }
 
 .wrapper {
-    max-width: 35%;
+    width: 100%;
     border: 1px solid;
     display: flex;
+    justify-content: space-around;
 }
 
 @media(max-width: 740px) {
@@ -30,5 +34,6 @@
     .wrapper {
         max-width: 100%;
         display: flex;
+        justify-content: space-between;
         }
 }

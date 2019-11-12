@@ -1,0 +1,27 @@
+{
+  "header.home": "Главная",
+  "header.skill": "Скиллы",
+  "header.project": "Проекты",
+  "header.contact": "Контакты",
+
+  "main.hello": "Привет",
+  "main.name": "Меня зовут Дмитрий Ходаренок.",
+  "main.i`m": "Я Front-end разработчик",
+
+  "mySkill.title": "Мои скилы",
+  "mySkill.skillDescription": "Описание скилла",
+
+  "myProject.title": "Мои работы",
+  "mySkill.button": "Смотреть",
+  "mySkill.nameProject": "Название проекта",
+  "mySkill.projectDescription": "Описание проекта",
+
+  "distantProject.title": "Рассматриваю варианты удаленной работы",
+  "distantProject.button": "Смотреть",
+
+  "contact.title": "Контакты",
+  "contact.button": "Отправить",
+
+  "footer.name": "Дмитрий Ходаренок",
+  "footer.rightsReserved": "© 2019 все права защищены"
+}

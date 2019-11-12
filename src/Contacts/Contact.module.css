@@ -1,6 +1,6 @@
 .contact {
     height: 100vh;
-    background-color: rgba(17, 110, 90, 0.534);
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,54 @@
     flex-direction: column;
 }
 
+.title h3 {
+    color: #5b43d6;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid silver;
+    outline: none;
+}
+
+.input:Focus {
+    border: 2px solid #5b43d6;
+    outline: none;
+}
+
+.input:Focus::placeholder {
+    color: transparent;
+}
+
+.message {
+    padding: 10px;
+    border: 1px solid silver;
+    outline: none;
+}
+
+.message:Focus {
+    border: 2px solid #5b43d6;
+}
+
+.message:Focus::placeholder{
+    color: transparent;
+}
+
+.button {
+    color: #5b43d6;
+    background-color: transparent;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid #5b43d6;
+    outline: none;
+}
+
+.button:hover {
+    color: white;
+    background-color: #5b43d6;
+    transition: background-color .5s, color .2s;
+}
+
 form{
     width: 50%;
     text-align: center;
@@ -28,6 +76,10 @@ form textarea{
 
 form input, form textarea {
     width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
 }
 
 @media(max-width: 600px){
@@ -40,23 +92,12 @@ form input, form textarea {
     form {
         width: 100%;
     }
+
+    .input {
+        width: 95%;
+    }
+
+    .message {
+        width: 95%;
+    }
 }
-
-
-
-/* .cell1 {
-    width: 70%;
-    height: 50%;
-    border: 1px solid;
-}
-
-.button {
-    width: 200px;
-    height: 50px;
-}
-
-.input {
-    margin-top: 20px;
-    width: 100%;
-    box-sizing: border-box;
-} */

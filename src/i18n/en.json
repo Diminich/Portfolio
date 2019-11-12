@@ -1,0 +1,27 @@
+{
+  "header.home": "Home",
+  "header.skill": "Skill",
+  "header.project": "Project",
+  "header.contact": "Contact",
+
+  "main.hello": "Hello",
+  "main.name": "My name is Dmitry Khodarenok.",
+  "main.i`m": "I am a front-end developer",
+
+  "mySkill.title": "My skills",
+  "mySkill.skillDescription": "Skill description",
+
+  "myProject.title": "My works",
+  "mySkill.button": "view",
+  "mySkill.nameProject": "The name of the project",
+  "mySkill.projectDescription": "Project description",
+
+  "distantProject.title": "I consider options for remote work",
+  "distantProject.button": "view",
+
+  "contact.title": "Contacts",
+  "contact.button": "Submit",
+
+  "footer.name": "Dmitry Khodarenok",
+  "footer.rightsReserved": "© 2019 all rights reserved"
+}

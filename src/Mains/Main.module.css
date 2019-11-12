@@ -1,9 +1,10 @@
 .main {
     min-height: 100vh;
-    background-color: rgb(143, 202, 206);
+    background: linear-gradient(to bottom,#7a19f1,#332179) fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid silver;
 }
 
 .container{
@@ -20,6 +21,14 @@
 .Greeting{
     display: flex;
     flex-direction: column;
+}
+
+.Greeting span {
+    color: white;
+}
+
+.hello {
+    margin-top: 14px;
 }
 
 .photo{

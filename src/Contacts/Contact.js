@@ -1,32 +1,21 @@
 import React from 'react';
 import styles from './Contact.module.css';
+import {FormattedHTMLMessage} from "react-intl";
 
 function Contact() {
   return (
-    <div className={styles.contact}>
+    <div id='contact' className={styles.contact}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <span>Контакты</span>
+          <span><h3><FormattedHTMLMessage  id='contact.title' defaultMessage='Контакты'/></h3></span>
         </div>
         <form>
-          <input className={styles.input}></input>
-          <input className={styles.input}></input>
-          <textarea className={styles.message}></textarea>
-          <button type='submit' className={styles.button}>
-            Отправить
+          <input placeholder='Name' className={styles.input}></input>
+          <input placeholder='Email' className={styles.input}></input>
+          <textarea placeholder='Message' className={styles.message}></textarea>
+          <button type='submit' className={styles.button}><FormattedHTMLMessage  id='contact.button' defaultMessage='Отправить'/>
         </button>
         </form>
-
-        {/* <div className={styles.contacts}>
-          Контакты
-        </div>
-        <div className={styles.cell1}>
-          <input className={styles.input}></input>
-          <input className={styles.input}></input>
-        </div>
-        <button className={styles.button}>
-          Отправить
-        </button> */}
       </div>
     </div>
   );

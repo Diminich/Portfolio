@@ -1,9 +1,10 @@
 .projectsWrapper {
     min-height: 100vh;
-    background-color: rgb(64, 85, 141);
     display: flex;
     justify-content: center;
     align-items: center;
+    background: white;
+    border-bottom: 1px solid silver;
 }
 
 .container {
@@ -16,9 +17,11 @@
     
 }
 
-.title {
+.title h3 {
     height: 25%;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    color: #5b43d6;
 }
 

@@ -1,9 +1,10 @@
 .distantProjects {
     height: 250px;
-    background-color: rgb(214, 70, 94);
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    border-bottom: 1px solid silver;
 }
 
 .container {
@@ -17,7 +18,22 @@
     justify-content: space-between;
 }
 
+.workOptions {
+    color: white;
+    text-align: center;
+}
+
 .buttons {
-    width: 250px;
-    height: 35px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.buttons:hover {
+    color: #5b43d6;
+    transition: background-color .5s, color .2s;
+    background-color: white;
 }
