@@ -10,7 +10,6 @@
 .container {
     max-width: 1336px;
     flex-grow: 1;
-    border: 1px solid;
     display: flex;
     height: 70%;
     align-items: center;

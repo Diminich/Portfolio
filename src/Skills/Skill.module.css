@@ -9,7 +9,6 @@
 
 .container {
     width: 1336px;
-    border: 1px solid;
     display: flex;
     align-items: center;
     flex-direction: column;

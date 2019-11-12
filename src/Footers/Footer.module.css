@@ -10,7 +10,6 @@
 .container {
     max-width: 1336px;
     flex-grow: 1;
-    border: 1px solid;
     display: flex;
     height: 70%;
     align-items: center;
@@ -21,7 +20,6 @@
 .socialIcons {
     width: 70%;
     height: 40%;
-    border: 1px solid;
     display: flex;
     justify-content: space-around;
     align-items: center;

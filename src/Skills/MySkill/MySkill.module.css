@@ -17,7 +17,6 @@
 .skills{
     display: flex;
     justify-content: space-between;
-    border: 1px solid;
     flex-wrap: wrap;
     width: 100%;
 }
