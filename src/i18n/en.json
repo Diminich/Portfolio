@@ -21,6 +21,9 @@
 
   "contact.title": "Contacts",
   "contact.button": "Submit",
+  "contact.nameError": "Enter at least three characters",
+  "contact.emailError": "Enter a valid value",
+  "contact.messageError": "Enter at least ten characters",
 
   "footer.name": "Dmitry Khodarenok",
   "footer.rightsReserved": "© 2019 all rights reserved"

@@ -13,11 +13,9 @@ function MySkill() {
                     </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h4>react</h4>
+                    <h3>react</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
-                    <FormattedHTMLMessage id="mySkill.skillDescription"
-                                          defaultMessage='Описание скилла'/>
           </span>
             </div>
 
@@ -29,11 +27,9 @@ function MySkill() {
                     </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h4>html</h4>
+                    <h3>html</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
-                    <FormattedHTMLMessage id="mySkill.skillDescription"
-                                          defaultMessage='Описание скилла'/>
           </span>
             </div>
 
@@ -45,11 +41,9 @@ function MySkill() {
                     </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h4>css</h4>
+                    <h3>css</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
-                    <FormattedHTMLMessage id="mySkill.skillDescription"
-                                          defaultMessage='Описание скилла'/>
           </span>
             </div>
 
@@ -61,11 +55,9 @@ function MySkill() {
                     </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h4>js</h4>
+                    <h3>js</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
-                    <FormattedHTMLMessage id="mySkill.skillDescription"
-                                          defaultMessage='Описание скилла'/>
           </span>
             </div>
         </div>

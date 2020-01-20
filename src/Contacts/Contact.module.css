@@ -30,6 +30,51 @@
     outline: none;
 }
 
+.errorName {
+    padding: 10px;
+    border: 2px solid red;
+    outline: none;
+    margin-bottom: -10px;
+}
+
+.popupErrorName {
+    margin: 10px;
+    color: red;
+}
+
+.emailError {
+    padding: 10px;
+    border: 2px solid red;
+    outline: none;
+    margin-bottom: -10px;
+}
+
+.popupErrorEmail {
+    margin: 10px;
+    color: red;
+}
+
+.messageError {
+    padding: 10px;
+    border: 2px solid red;
+    outline: none;
+    margin-bottom: -15px;
+}
+
+.popupErrorMessage {
+    margin: 10px;
+    color: red;
+}
+
+
+.errorMessageButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
 .input:Focus::placeholder {
     color: transparent;
 }
@@ -55,6 +100,7 @@
     border-radius: 30px;
     border: 2px solid #5b43d6;
     outline: none;
+    transition: background-color .5s, color .2s;
 }
 
 .button:hover {

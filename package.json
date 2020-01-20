@@ -5,11 +5,16 @@
   "homepage": "https://Diminich.github.io/Portfolio",
   "dependencies": {
     "antd": "^3.25.0",
+    "axios": "^0.19.1",
+    "formik": "^2.1.1",
     "gh-pages": "^2.1.1",
+    "nodemailer": "^6.4.2",
+    "nodemailer-react": "^0.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-intl": "^3.4.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "redux-form": "^8.2.6"
   },
   "scripts": {
     "predeploy": "npm run build",

@@ -21,6 +21,9 @@
 
   "contact.title": "Контакты",
   "contact.button": "Отправить",
+  "contact.nameError": "Введите не менее трех симвлолов",
+  "contact.emailError": "Введите корректное значение",
+  "contact.messageError": "Введите не менее десяти симвлоло",
 
   "footer.name": "Дмитрий Ходаренок",
   "footer.rightsReserved": "© 2019 все права защищены"
