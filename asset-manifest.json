@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dabb78ed.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c2c4320d.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c2c4320d.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.1d7a41f8.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1d7a41f8.js.map",
-    "static/css/2.7ececfe9.chunk.css": "/Portfolio/static/css/2.7ececfe9.chunk.css",
-    "static/js/2.e5ad490e.chunk.js": "/Portfolio/static/js/2.e5ad490e.chunk.js",
-    "static/js/2.e5ad490e.chunk.js.map": "/Portfolio/static/js/2.e5ad490e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0f2a4689.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a524562a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a524562a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.8af804fc.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8af804fc.js.map",
+    "static/css/2.ff8bd605.chunk.css": "/Portfolio/static/css/2.ff8bd605.chunk.css",
+    "static/js/2.d94e4e6f.chunk.js": "/Portfolio/static/js/2.d94e4e6f.chunk.js",
+    "static/js/2.d94e4e6f.chunk.js.map": "/Portfolio/static/js/2.d94e4e6f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.7060cc145162c71fbbce201a49ccdbd5.js": "/Portfolio/precache-manifest.7060cc145162c71fbbce201a49ccdbd5.js",
+    "precache-manifest.ee5da40506672a37865fd2de3bcb643a.js": "/Portfolio/precache-manifest.ee5da40506672a37865fd2de3bcb643a.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.7ececfe9.chunk.css.map": "/Portfolio/static/css/2.7ececfe9.chunk.css.map",
-    "static/css/main.dabb78ed.chunk.css.map": "/Portfolio/static/css/main.dabb78ed.chunk.css.map",
-    "static/media/github-big-logo.svg": "/Portfolio/static/media/github-big-logo.97725d96.svg",
-    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.d0fa0358.svg",
-    "static/media/telegram.svg": "/Portfolio/static/media/telegram.3a0aa3e6.svg",
-    "static/media/vk.svg": "/Portfolio/static/media/vk.5b106269.svg"
+    "static/css/2.ff8bd605.chunk.css.map": "/Portfolio/static/css/2.ff8bd605.chunk.css.map",
+    "static/css/main.0f2a4689.chunk.css.map": "/Portfolio/static/css/main.0f2a4689.chunk.css.map",
+    "static/media/Footer.module.css": "/Portfolio/static/media/vk.8b071d8c.svg"
   }
 }
