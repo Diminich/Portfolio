@@ -25,6 +25,9 @@
     width: 100px;
     height: 100px;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .skillImg {
@@ -34,6 +37,11 @@
 
 .descriptioSkills {
     color: silver;
+}
+
+.icon {
+    font-size: 100px;
+    color: #5b43d6;
 }
 
 @media(max-width: 1136px) {

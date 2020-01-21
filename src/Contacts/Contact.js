@@ -85,7 +85,6 @@ class Contact extends Component {
     };
 
     render() {
-
         let disableButton = this.state.errorName || this.state.errorEmail || this.state.errorMessage ||
             this.state.nameTitle.length === 0 || this.state.emailTitle.length === 0 ||
             this.state.messageTitle.length === 0;
@@ -129,8 +128,7 @@ class Contact extends Component {
                     </form>
                 </div>
             </div>
-        )
-            ;
+        );
     }
 }
 

@@ -21,6 +21,8 @@ class App extends React.Component {
         }
     };
 
+
+
     changeLocal = (e) => {
         if (e) {
             this.setState({currentLocal: 'en'}
