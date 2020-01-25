@@ -26,6 +26,11 @@
     background-color: transparent !important;
 }
 
+.switchBorder {
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
 @media(max-width: 740px) {
     .container {
         width: 100%;

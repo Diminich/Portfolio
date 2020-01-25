@@ -95,7 +95,7 @@ class Contact extends Component {
                         <span><h3><FormattedHTMLMessage id='contact.title' defaultMessage='Контакты'/></h3></span>
                     </div>
                     <form action="https://formspree.io/mlejalqy" method="POST">
-                        <input name={'name'} placeholder='Name' onChange={this.nameTitle}пь
+                        <input name={'name'} placeholder='Name' onChange={this.nameTitle}
                                className={this.state.isNameTitleError ? styles.input : styles.errorName}
                                onBlur={this.titleErrorNameChange}/>
                         <div className={styles.popupErrorName}>

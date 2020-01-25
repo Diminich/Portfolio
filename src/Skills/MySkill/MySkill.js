@@ -15,7 +15,7 @@ function MySkill() {
                         </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h3>react</h3>
+                    <h3>REACT</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
           </span>
@@ -28,7 +28,7 @@ function MySkill() {
                        </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h3>html</h3>
+                    <h3>HTML</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
           </span>
@@ -41,7 +41,7 @@ function MySkill() {
                         </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h3>css</h3>
+                    <h3>CSS</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
           </span>
@@ -54,7 +54,7 @@ function MySkill() {
                        </div>
                 </div>
                 <div className={styles.cell2}>
-                    <h3>js</h3>
+                    <h3>JS</h3>
                 </div>
                 <span className={styles.descriptioSkills}>
           </span>

@@ -16,7 +16,10 @@ class Header extends React.Component {
             <div className={styles.header}>
                 <div className={styles.container}>
                     <div className={styles.wrapper}>
-                        <Switch className={styles.switch} checked={isChecked} onChange={this.props.changeLocal} checkedChildren="EN" unCheckedChildren="RU" />
+                        <div className={styles.switchBorder}>
+                            <Switch className={styles.switch} checked={isChecked} onChange={this.props.changeLocal}
+                                    checkedChildren="EN" unCheckedChildren="RU"/>
+                        </div>
                         <NavMenu/>
                     </div>
                 </div>
