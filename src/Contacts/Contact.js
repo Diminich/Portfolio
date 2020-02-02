@@ -52,8 +52,7 @@ class Contact extends Component {
             this.setState({
                 errorEmail: true
             })
-        }
-        else {
+        } else {
             this.setState({
                 errorEmail: false
             })
@@ -94,7 +93,10 @@ class Contact extends Component {
                     <div className={styles.title}>
                         <span><h3><FormattedHTMLMessage id='contact.title' defaultMessage='Контакты'/></h3></span>
                     </div>
-                    <form action="https://formspree.io/mlejalqy" method="POST">
+                    <form
+                        action="https://formspree.io/mlejalqy"
+                        method="POST"
+                    >
                         <input name={'name'} placeholder='Name' onChange={this.nameTitle}
                                className={this.state.isNameTitleError ? styles.input : styles.errorName}
                                onBlur={this.titleErrorNameChange}/>
@@ -102,7 +104,8 @@ class Contact extends Component {
                             {!this.state.errorName ? '' : <FormattedHTMLMessage id='contact.nameError'
                                                                                 defaultMessage='Введите не менее трех симвлолов'/>}
                         </div>
-                        <input name={'email'} placeholder='Email' onChange={this.emailTitle} onBlur={this.titleErrorEmailChange}
+                        <input name={'email'} placeholder='Email' onChange={this.emailTitle}
+                               onBlur={this.titleErrorEmailChange}
                                className={this.state.isEmailTitleError ? styles.input : styles.emailError}/>
                         <div className={styles.popupErrorEmail}>
                             {!this.state.errorEmail ? '' : <FormattedHTMLMessage id='contact.emailError'
