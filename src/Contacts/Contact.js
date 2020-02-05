@@ -84,9 +84,15 @@ class Contact extends Component {
     };
 
     render() {
-        let disableButton = this.state.errorName || this.state.errorEmail || this.state.errorMessage ||
-            this.state.nameTitle.length === 0 || this.state.emailTitle.length === 0 ||
-            this.state.messageTitle.length === 0;
+
+        let {
+            errorName, errorEmail, errorMessage, nameTitle, emailTitle, messageTitle, isNameTitleError,
+            isEmailTitleError, isMessageTitleError
+        } = this.state;
+
+        let disableButton = errorName || errorEmail || errorMessage ||
+            nameTitle.length === 0 || emailTitle.length === 0 ||
+            messageTitle.length === 0;
         return (
             <div id='contact' className={styles.contact}>
                 <div className={styles.container}>
@@ -98,27 +104,27 @@ class Contact extends Component {
                         method="POST"
                     >
                         <input name={'name'} placeholder='Name' onChange={this.nameTitle}
-                               className={this.state.isNameTitleError ? styles.input : styles.errorName}
+                               className={isNameTitleError ? styles.input : styles.errorName}
                                onBlur={this.titleErrorNameChange}/>
                         <div className={styles.popupErrorName}>
-                            {!this.state.errorName ? '' : <FormattedHTMLMessage id='contact.nameError'
-                                                                                defaultMessage='Введите не менее трех симвлолов'/>}
+                            {!errorName ? '' : <FormattedHTMLMessage id='contact.nameError'
+                                                                     defaultMessage='Введите не менее трех симвлолов'/>}
                         </div>
                         <input name={'email'} placeholder='Email' onChange={this.emailTitle}
                                onBlur={this.titleErrorEmailChange}
-                               className={this.state.isEmailTitleError ? styles.input : styles.emailError}/>
+                               className={isEmailTitleError ? styles.input : styles.emailError}/>
                         <div className={styles.popupErrorEmail}>
-                            {!this.state.errorEmail ? '' : <FormattedHTMLMessage id='contact.emailError'
-                                                                                 defaultMessage='Введите корректное значение'/>}
+                            {!errorEmail ? '' : <FormattedHTMLMessage id='contact.emailError'
+                                                                      defaultMessage='Введите корректное значение'/>}
                         </div>
                         <textarea name={'message'} placeholder='Message'
-                                  className={this.state.isMessageTitleError ? styles.input : styles.messageError}
+                                  className={isMessageTitleError ? styles.input : styles.messageError}
                                   onChange={this.messageTitle}
                                   onBlur={this.titleErrorMessageChange}/>
                         <div className={styles.errorMessageButton}>
                             <div className={styles.popupErrorMessage}>
-                                {!this.state.errorMessage ? '' : <FormattedHTMLMessage id='contact.messageError'
-                                                                                       defaultMessage='Введите не менее десяти симвлоло'/>}
+                                {!errorMessage ? '' : <FormattedHTMLMessage id='contact.messageError'
+                                                                            defaultMessage='Введите не менее десяти симвлоло'/>}
                             </div>
                             <div>
                                 <button type='submit' disabled={disableButton}
