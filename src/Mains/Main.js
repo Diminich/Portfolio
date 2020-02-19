@@ -12,7 +12,7 @@ function Main() {
           <span className={styles.Front}><FormattedHTMLMessage  id='main.i`m' defaultMessage='Я Front-end разработчик'/></span>
         </div>
         <div className={styles.photo}>
-          <img src="" alt="" />
+          <img alt="" />
         </div>
       </div>
     </div>
