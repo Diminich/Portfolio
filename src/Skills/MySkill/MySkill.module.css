@@ -9,8 +9,16 @@
     flex-grow: 1;
 }
 
-.cell2{
+.nameSkillTypeScript {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5b43d6;
+}
+
+.nameSkill{
+    display: flex;
+    flex-direction: column;
     color: #5b43d6;
 }
 
@@ -24,6 +32,7 @@
 .skillImgs {
     width: 100px;
     height: 100px;
+    margin-top: 17px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -35,13 +44,20 @@
     height: 100px;
 }
 
-.descriptioSkills {
-    color: silver;
-}
-
 .icon {
+    overflow: visible;
     font-size: 100px;
     color: #5b43d6;
+}
+
+.typeScriptImg {
+    background-image: url("./../../Img/ts (3).svg");
+    width: 96px;
+    height: 96px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
 }
 
 @media(max-width: 1136px) {

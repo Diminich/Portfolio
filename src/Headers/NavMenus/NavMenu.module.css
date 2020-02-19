@@ -4,6 +4,10 @@
     justify-content: space-around;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .link {
     color: white;
     text-decoration: none;

@@ -25,7 +25,7 @@ class Contact extends Component {
 
     titleErrorNameChange = () => {
         let lengthName = this.state.nameTitle.length;
-        let isNameTitleError = !(lengthName < 3 || lengthName > 30);
+        let isNameTitleError = !(lengthName < 2 || lengthName > 30);
         if (isNameTitleError === false) {
             this.setState({
                 errorName: true

@@ -13,7 +13,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+}
+
+.title {
+    margin-bottom: 30px;
 }
 
 .title h3 {
