@@ -8,37 +8,40 @@ function Project() {
         <div>
             <div className={styles.projects}>
                 <div className={styles.project}>
-                    <div className={styles.cell1}>
+                    <div className={styles.watchProjects}>
                         <div className={styles.img}>
                             <div className={styles.numberProject}>1</div>
                         </div>
-                        <form action='https://diminich.github.io/Portfolio/'>
+                        <form action='https://diminich.github.io/Project/'>
                             <button className={styles.button}><FormattedHTMLMessage id='mySkill.button'
                                                                                     defaultMessage='Смотреть'/></button>
                         </form>
                     </div>
-                    <div className={styles.cell2}>
+                    <div className={styles.projectDescription}>
                         <div className={styles.nameProject}>
-                            <h2><FormattedHTMLMessage id='mySkill.nameProjectSocialNetwork' defaultMessage='Social network'/></h2>
+                            <h2><FormattedHTMLMessage id='mySkill.nameProjectSocialNetwork'
+                                                      defaultMessage='Social network'/></h2>
                         </div>
                         <div>
                             <FormattedHTMLMessage id='mySkill.projectDescription'
-                                                  defaultMessage='React, redux, typescript, classes, hooks, thunk, redux-form, axios,
+                                                  defaultMessage='Rest api, react, redux, typescript, classes, hooks, thunk, redux-form, axios,
                                                   flex, styled-components, module css'/>
                         </div>
                     </div>
                 </div>
 
                 <div className={styles.project}>
-                    <div className={styles.cell1}>
+                    <div className={styles.watchProjects}>
                         <div className={styles.img}>
                             <div className={styles.numberProject}>2</div>
                         </div>
-                        <button className={styles.button}><FormattedHTMLMessage id='mySkill.button'
-                                                                                defaultMessage='Смотреть'/>
-                        </button>
+                        <form action='https://diminich.github.io/ToDoList/'>
+                            <button className={styles.button}><FormattedHTMLMessage id='mySkill.button'
+                                                                                    defaultMessage='Смотреть'/>
+                            </button>
+                        </form>
                     </div>
-                    <div className={styles.cell2}>
+                    <div className={styles.projectDescription}>
                         <div className={styles.nameProject}>
                             <h2><FormattedHTMLMessage id='mySkill.nameProject' defaultMessage='To do list'/></h2>
                         </div>
