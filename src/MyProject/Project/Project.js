@@ -8,7 +8,7 @@ function Project() {
         <div>
             <div className={styles.projects}>
                 <div className={styles.project}>
-                    <div className={styles.watchProjects}>
+                    <div className={styles.imgButtonProject}>
                         <div className={styles.img}>
                             <div className={styles.numberProject}>1</div>
                         </div>
@@ -31,7 +31,7 @@ function Project() {
                 </div>
 
                 <div className={styles.project}>
-                    <div className={styles.watchProjects}>
+                    <div className={styles.imgButtonProject}>
                         <div className={styles.img}>
                             <div className={styles.numberProject}>2</div>
                         </div>

@@ -9,7 +9,7 @@ function Main() {
         <div className={styles.Greeting}>
           <span className={styles.hello}><FormattedHTMLMessage  id='main.hello' defaultMessage='Привет'/></span>
           <span className={styles.myName}><FormattedHTMLMessage  id='main.name' defaultMessage='Меня зовут Дмитрий Ходаренок.'/></span>
-          <span className={styles.Front}><FormattedHTMLMessage  id='main.i`m' defaultMessage='Я Front-end разработчик'/></span>
+          <span className={styles.font}><FormattedHTMLMessage  id='main.i`m' defaultMessage='Я Front-end разработчик'/></span>
         </div>
         <div className={styles.photo}>
           <img alt="" />
