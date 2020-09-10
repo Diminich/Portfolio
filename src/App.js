@@ -4,7 +4,6 @@ import Header from './Headers/Header';
 import Main from './Mains/Main';
 import Skill from './Skills/Skill';
 import Projects from './MyProject/Projects';
-import DistantProjects from './DistantProject/DistantProjects';
 import {IntlProvider} from 'react-intl';
 import Contacts from './Contacts/Contact';
 import Footer from './Footers/Footer';
@@ -42,7 +41,6 @@ class App extends React.Component {
                         <Main/>
                         <Skill/>
                         <Projects/>
-                        <DistantProjects/>
                         <Contacts/>
                         <Footer/>
                     </IntlProvider>

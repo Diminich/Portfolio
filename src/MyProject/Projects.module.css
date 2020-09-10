@@ -1,15 +1,14 @@
 .projectsWrapper {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: white;
     border-bottom: 1px solid silver;
 }
 
 .container {
-    max-width: 1336px;
-    flex-grow: 1;
+    width: 1336px;
     display: flex;
     justify-content: center;
     flex-direction: column;
