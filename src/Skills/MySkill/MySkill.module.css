@@ -1,73 +1,85 @@
-.skill{
-    width: 30%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    flex-grow: 1;
+.skill {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-grow: 1;
 }
 
 .nameSkillTypeScript {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #5b43d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #5b43d6;
 }
 
-.nameSkill{
-    display: flex;
-    flex-direction: column;
-    color: #5b43d6;
+.nameSkill {
+  display: flex;
+  flex-direction: column;
+  color: #5b43d6;
 }
 
-.skills{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .skillImgs {
-    width: 100px;
-    height: 100px;
-    margin-top: 17px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.skillImgs:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
 }
 
 .skillImg {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .icon {
-    overflow: visible;
-    font-size: 100px;
-    color: #5b43d6;
+  overflow: visible;
+  font-size: 100px;
+  color: #5b43d6;
 }
 
 .typeScriptImg {
-    background-image: url("./../../Img/ts (3).svg");
-    width: 96px;
-    height: 96px;
-    margin-top: 18px;
-    margin-bottom: 15px;
-    background-size: cover;
-    background-position: center;
+  background-image: url("./../../Img/ts (3).svg");
+  width: 96px;
+  height: 96px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
 }
 
-@media(max-width: 1136px) {
-    .skills{
-        justify-content: center;
-    }
+.typeScriptImg:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
 }
 
-@media(max-width: 500px) {
-    .skill {
-        width: 100%;
-    }
+@media (max-width: 1136px) {
+  .skills {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .skill {
+    width: 100%;
+  }
 }

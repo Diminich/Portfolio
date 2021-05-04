@@ -1,149 +1,185 @@
 .contact {
-    height: 100vh;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-behavior: smooth;
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
 }
 
 .container {
-    max-width: 1336px;
-    flex-grow: 1;
-    display: flex;
-    height: 70%;
-    align-items: center;
-    flex-direction: column;
+  max-width: 1336px;
+  flex-grow: 1;
+  display: flex;
+  height: 90%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emailForm {
+  width: 50%;
+  text-align: center;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.emailInputsTextarea {
+  height: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .title h3 {
-    color: #5b43d6;
+  color: #5b43d6;
 }
 
 .input {
-    padding: 10px;
-    border: 1px solid silver;
-    outline: none;
+  padding: 10px;
+  border: 1px solid silver;
+  outline: none;
 }
 
-.input:Focus {
-    border: 2px solid #5b43d6;
-    outline: none;
+.input:focus {
+  border: 2px solid #5b43d6;
+  outline: none;
 }
 
 .errorName {
-    padding: 10px;
-    border: 2px solid red;
-    outline: none;
-    margin-bottom: -10px;
+  padding: 10px;
+  border: 2px solid red;
+  outline: none;
+  margin-bottom: -10px;
 }
 
 .popupErrorName {
-    margin: 10px;
-    color: red;
+  margin: 10px;
+  color: red;
 }
 
 .emailError {
-    padding: 10px;
-    border: 2px solid red;
-    outline: none;
-    margin-bottom: -10px;
+  padding: 10px;
+  border: 2px solid red;
+  outline: none;
+  margin-bottom: -10px;
 }
 
 .popupErrorEmail {
-    margin: 10px;
-    color: red;
+  margin: 10px;
+  color: red;
 }
 
 .messageError {
-    padding: 10px;
-    border: 2px solid red;
-    outline: none;
-    margin-bottom: -15px;
+  padding: 10px;
+  border: 2px solid red;
+  outline: none;
+  margin-bottom: -15px;
 }
 
 .popupErrorMessage {
-    margin: 10px;
-    color: red;
+  margin: 10px;
+  color: red;
+  padding-top: 5px;
 }
-
 
 .errorMessageButton {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
 }
 
-.input:Focus::placeholder {
-    color: transparent;
+.input:focus::placeholder {
+  color: transparent;
 }
 
 .message {
-    padding: 10px;
-    border: 1px solid silver;
-    outline: none;
+  padding: 10px;
+  border: 1px solid silver;
+  outline: none;
 }
 
-.message:Focus {
-    border: 2px solid #5b43d6;
+.message:focus {
+  border: 2px solid #5b43d6;
 }
 
-.message:Focus::placeholder{
-    color: transparent;
+.message:focus::placeholder {
+  color: transparent;
 }
 
 .button {
-    color: #5b43d6;
-    background-color: transparent;
-    padding: 12px 30px;
-    border-radius: 30px;
-    border: 2px solid #5b43d6;
-    outline: none;
-    transition: background-color .5s, color .2s;
+  color: #5b43d6;
+  background-color: transparent;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: 2px solid #5b43d6;
+  outline: none;
+  transition: background-color 0.5s, color 0.2s;
+  width: 50%;
+  position: relative;
+  left: 170px;
 }
 
 .button:hover {
-    color: white;
-    background-color: #5b43d6;
-    transition: background-color .5s, color .2s;
+  color: white;
+  background-color: #5b43d6;
+  transition: background-color 0.5s, color 0.2s;
 }
 
-form{
-    width: 50%;
-    text-align: center;
+form {
+  width: 50%;
+  text-align: center;
 }
 
-form textarea{
-    resize: none;
-    min-height: 200px;
+form textarea {
+  resize: none;
+  min-height: 200px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
+  width: 95%;
+  box-sizing: border-box;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .emailForm {
+    width: 80%;
+    left: 22px;
+    top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .emailForm {
     width: 100%;
-    box-sizing: border-box;
-    margin: 5px;
-    border-radius: 10px;
-    border: none;
+  }
+
+  .input {
+    width: 95%;
+  }
+
+  .message {
+    width: 95%;
+  }
+
+  .button {
+    left: 33px;
+    top: 40px;
+    width: 85%;
+  }
 }
 
-@media(max-width: 600px){
-    form {
-        width: 80%;
+@media (max-width: 321px) {
+    .button {
+      left: 22px;
+      top: 40px;
+      width: 85%;
     }
-}
-
-@media(max-width: 500px){
-    form {
-        width: 100%;
-    }
-
-    .input {
-        width: 95%;
-    }
-
-    .message {
-        width: 95%;
-    }
-}
+  }
