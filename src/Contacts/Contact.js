@@ -94,50 +94,50 @@ class Contact extends Component {
             nameTitle.length === 0 || emailTitle.length === 0 ||
             messageTitle.length === 0;
         return (
-            <div id='contact' className={styles.contact}>
+            <div id='contact' className={styles.wrapperContact}>
                 <div className={styles.container}>
-                    <div className={styles.title}>
-                        <span><h3><FormattedHTMLMessage id='contact.title' defaultMessage='Контакты' /></h3></span>
-                    </div>
-                    <form
-                        className={styles.emailForm}
-                        action="https://formspree.io/mlejalqy"
-                        method="POST"
-                    >
-                        <div className={styles.emailInputsTextarea}>
-                            <input name={'name'} placeholder='Name' onChange={this.nameTitle}
-                                className={isNameTitleError ? styles.input : styles.errorName}
-                                onBlur={this.titleErrorNameChange} />
-                            <div className={styles.popupErrorName}>
-                                {!errorName ? '' : <FormattedHTMLMessage id='contact.nameError'
-                                    defaultMessage='Введите не менее трех симвлолов' />}
-                            </div>
-                            <input name={'email'} placeholder='Email' onChange={this.emailTitle}
-                                onBlur={this.titleErrorEmailChange}
-                                className={isEmailTitleError ? styles.input : styles.emailError} />
-                            <div className={styles.popupErrorEmail}>
-                                {!errorEmail ? '' : <FormattedHTMLMessage id='contact.emailError'
-                                    defaultMessage='Введите корректное значение' />}
-                            </div>
-                            <textarea name={'message'} placeholder='Message'
-                                className={isMessageTitleError ? styles.input : styles.messageError}
-                                onChange={this.messageTitle}
-                                onBlur={this.titleErrorMessageChange} />
-                            <div className={styles.errorMessageButton}>
-                                <div className={styles.popupErrorMessage}>
-                                    {!errorMessage ? '' : <FormattedHTMLMessage id='contact.messageError'
-                                        defaultMessage='Введите не менее десяти симвлоло' />}
+                    <h3 className={styles.title}><FormattedHTMLMessage id='contact.title' defaultMessage='Контакты' /></h3>
+                    <div className={styles.emailFormButton}>
+                        <form
+                            className={styles.emailForm}
+                            action="https://formspree.io/mlejalqy"
+                            method="POST"
+                        >
+                            <div className={styles.emailInputsTextarea}>
+                                <input name={'name'} placeholder='Name' onChange={this.nameTitle}
+                                    className={isNameTitleError ? styles.input : styles.errorName}
+                                    onBlur={this.titleErrorNameChange} />
+                                <div className={styles.popupErrorName}>
+                                    {!errorName ? '' : <FormattedHTMLMessage id='contact.nameError'
+                                        defaultMessage='Введите не менее трех симвлолов' />}
+                                </div>
+                                <input name={'email'} placeholder='Email' onChange={this.emailTitle}
+                                    onBlur={this.titleErrorEmailChange}
+                                    className={isEmailTitleError ? styles.input : styles.emailError} />
+                                <div className={styles.popupErrorEmail}>
+                                    {!errorEmail ? '' : <FormattedHTMLMessage id='contact.emailError'
+                                        defaultMessage='Введите корректное значение' />}
+                                </div>
+                                <textarea name={'message'} placeholder='Message'
+                                    className={isMessageTitleError ? styles.input : styles.messageError}
+                                    onChange={this.messageTitle}
+                                    onBlur={this.titleErrorMessageChange} />
+                                <div className={styles.errorMessageButton}>
+                                    <div className={styles.popupErrorMessage}>
+                                        {!errorMessage ? '' : <FormattedHTMLMessage id='contact.messageError'
+                                            defaultMessage='Введите не менее десяти симвлоло' />}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                         <button type='submit' disabled={disableButton}
                             className={styles.button}><FormattedHTMLMessage
                                 id='contact.button'
                                 defaultMessage='Отправить' />
                         </button>
-                    </form>
+                    </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }

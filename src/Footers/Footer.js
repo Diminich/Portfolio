@@ -10,7 +10,7 @@ import CodeIcon from '@material-ui/icons/Code';
 const styleIcon = {
   height: '100%',
   width: '100%',
-  color: 'white',
+  color: 'white'
 }
 
 function Footer() {

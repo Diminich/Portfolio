@@ -1,38 +1,45 @@
-.contact {
-  height: 100vh;
-  background: white;
+.wrapperContact {
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  scroll-behavior: smooth;
 }
 
 .container {
-  max-width: 1336px;
-  flex-grow: 1;
-  display: flex;
   height: 90%;
-  align-items: center;
+  width: 90%;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .emailForm {
+  height: 80%;
   width: 50%;
   text-align: center;
-  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.emailFormButton {
+  height: 85%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .emailInputsTextarea {
-  height: 83%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.title h3 {
+.title {
   color: #5b43d6;
 }
 
@@ -111,6 +118,7 @@
 }
 
 .button {
+  width: 30%;
   color: #5b43d6;
   background-color: transparent;
   padding: 12px 30px;
@@ -118,9 +126,6 @@
   border: 2px solid #5b43d6;
   outline: none;
   transition: background-color 0.5s, color 0.2s;
-  width: 50%;
-  position: relative;
-  left: 170px;
 }
 
 .button:hover {
@@ -177,9 +182,9 @@ form textarea {
 }
 
 @media (max-width: 321px) {
-    .button {
-      left: 22px;
-      top: 40px;
-      width: 85%;
-    }
+  .button {
+    left: 22px;
+    top: 40px;
+    width: 85%;
   }
+}

@@ -1,28 +1,30 @@
 .projectsWrapper {
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: white;
-    border-bottom: 1px solid silver;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid silver;
 }
 
-.container {
-    width: 1336px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.projectsContainer {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
-    margin-bottom: 30px;
+  color: #5b43d6;
 }
 
-.title h3 {
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    color: #5b43d6;
-}
+@media (max-width: 500px) {
+  .projectsWrapper {
+    height: auto;
+  }
 
+  .title {
+    padding-top: 15px;
+  }
+}

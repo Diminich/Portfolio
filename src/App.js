@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css'
 import Header from './Headers/Header';
 import Main from './Mains/Main';
 import Skill from './Skills/Skill';
 import Projects from './MyProject/Projects';
-import {IntlProvider} from 'react-intl';
+import { IntlProvider } from 'react-intl';
 import Contacts from './Contacts/Contact';
 import Footer from './Footers/Footer';
 import messages_ru from "./i18n/ru";
@@ -24,28 +24,26 @@ class App extends React.Component {
 
     changeLocal = (e) => {
         if (e) {
-            this.setState({currentLocal: 'en'}
+            this.setState({ currentLocal: 'en' }
             )
         } else {
-            this.setState({currentLocal: 'ru'})
+            this.setState({ currentLocal: 'ru' })
         }
     };
 
     render() {
         return (
-            <div className="App">
-                <div className="portfolio">
-                    <IntlProvider locale={this.state.currentLocal}
-                                  messages={this.state.messages[this.state.currentLocal]}>
-                        <Header changeLocal={this.changeLocal} currentLocal={this.state.currentLocal}/>
-                        <Main/>
-                        <Skill/>
-                        <Projects/>
-                        <Contacts/>
-                        <Footer/>
-                    </IntlProvider>
-                </div>
-            </div>
+            <div className={styles.wrapperApp} >
+                <IntlProvider locale={this.state.currentLocal}
+                    messages={this.state.messages[this.state.currentLocal]}>
+                    <Header changeLocal={this.changeLocal} currentLocal={this.state.currentLocal} />
+                    <Main />
+                    <Skill />
+                    <Projects />
+                    <Contacts />
+                    <Footer />
+                </IntlProvider>
+            </div >
         );
     };
 };
